@@ -33,6 +33,7 @@ class Migration(migrations.Migration):
                 ("wheel_speed_fl", models.FloatField()),
                 ("wheel_speed_br", models.FloatField()),
                 ("wheel_speed_bl", models.FloatField()),
+                ("wind_speed", models.FloatField()),
                 ("suspension_fr", models.FloatField()),
                 ("suspension_fl", models.FloatField()),
                 ("suspension_br", models.FloatField()),

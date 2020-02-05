@@ -88,4 +88,9 @@ class Migration(migrations.Migration):
             name="wheel_speed_fr",
             field=models.FloatField(default=0),
         ),
+        migrations.AlterField(
+            model_name="simulateddata",
+            name="wind_speed",
+            field=models.FloatField(default=0),
+        ),
     ]
